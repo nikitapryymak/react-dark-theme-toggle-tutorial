@@ -10,6 +10,7 @@ const StyledApp = styled.div`
   text-align: center;
   padding-top: 10rem;
   background-color: ${(props) => props.theme.body};
+  transition: all 0.25s ease;
 `;
 
 const Name = styled.h1`
